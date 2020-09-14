@@ -1,0 +1,14 @@
+.aboutme {
+    height: 40vh;
+    border-bottom: 1px solid black;
+    display:flex;
+    align-items: center;
+}
+
+.aboutme-section {
+    border: 1px dotted black;
+    padding:20px;
+    margin-left: 10%;
+    height:30vh;
+    width: 30%;
+}

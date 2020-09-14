@@ -1,0 +1,15 @@
+.intro {
+    min-height: 30vh;
+    border-bottom: 1px solid black;
+}
+
+.profile-pic {
+    border: 1px solid black;
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    position:relative;
+    left:calc(50vw - 75px);
+    top:calc(30vh - 75px);
+    background:#fff;
+}

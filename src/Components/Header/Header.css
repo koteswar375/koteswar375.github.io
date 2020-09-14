@@ -1,0 +1,22 @@
+.header {
+    display:flex;
+    padding:20px;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.title {
+    letter-spacing: 5px;
+}
+
+.headerItem {
+    display:inline-block;
+    font-weight: 600;
+}
+
+.header-items {
+    width:10%;
+    display:flex;
+    justify-content: space-around;
+    margin-right: 80px;
+}
