@@ -1,5 +1,4 @@
 .container {
-    background-color: azure;
     height:100vh;
 }
 
@@ -13,6 +12,12 @@
     display:inline-block;
     list-style:none;
     font-weight: bold;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid #039be5;
     cursor:pointer;
+}
+
+
+
+.list-item-content {
+    margin-top: 10%;
 }
