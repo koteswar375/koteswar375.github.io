@@ -2,12 +2,17 @@ import React from 'react';
 
 const Projects = (props) => {
 
-    return (
-        <div className = "container">
+    const Repos = props.repos.map(repo => {
+        return (
             <div className="card-panel">
-                <span className="blue-text text-darken-2">Projects</span>
+                <span className="blue-text text-darken-2">{repo.name}</span>
             </div>
-        </div>
+        )
+    });
+    return (
+        <div className="container">
+            {Repos}
+        </div >
     )
 };
 

@@ -1,6 +1,3 @@
-.container {
-    height:100vh;
-}
 
 .list-items {
     display:flex;
@@ -19,5 +16,5 @@
 
 
 .list-item-content {
-    margin-top: 10%;
+    margin-top: 5%;
 }
