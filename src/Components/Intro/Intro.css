@@ -1,6 +1,13 @@
 .intro {
-    min-height: 30vh;
-    border-bottom: 1px solid black;
+    min-height: 40vh;
+    border-bottom: 2px solid #fff;
+}
+
+.job-title {
+    font-weight: 600;
+    letter-spacing:10px;
+    position:relative;
+    top:calc(30vh - 100px);
 }
 
 .profile-pic {
@@ -9,6 +16,6 @@
     height:150px;
     position:relative;
     left:calc(50vw - 75px);
-    top:calc(30vh - 75px);
+    top:calc(40vh - 100px);
     background:#fff;
 }

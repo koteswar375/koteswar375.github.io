@@ -1,3 +1,9 @@
+html {
+  background: url(assets/bg5.png) no-repeat left top fixed;
+  background-size: cover;
+  height: 100%;
+}
+
 
 body {
   margin: 0;

@@ -9,10 +9,14 @@
     display:inline-block;
     list-style:none;
     font-weight: bold;
-    border-bottom: 2px solid #039be5;
+    border-bottom: 2px solid #fff;
     cursor:pointer;
 }
 
+.list-items li a {
+    color: #fff ;
+
+}
 
 
 .list-item-content {
