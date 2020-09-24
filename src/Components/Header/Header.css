@@ -1,22 +1,18 @@
 .header {
-    display:flex;
     padding:12px;
-    justify-content: space-between;
     box-shadow: 0 2px 50px #424242;
+}
+
+.header a {
+    color: white;
 }
 
 .title {
     letter-spacing: 5px;
 }
 
-.headerItem {
-    display:inline-block;
-    font-weight: 600;
-}
-
-.header-items {
-    width:10%;
-    display:flex;
-    justify-content: space-around;
-    margin-right: 80px;
-}
+@media only screen and (max-width: 992px) {
+    .header {
+        text-align:center;
+    }
+  }
