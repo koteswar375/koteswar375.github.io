@@ -1,11 +1,13 @@
 html {
-  background: url(assets/bg5.png) no-repeat left top fixed;
+  background: url(assets/bg2.svg) no-repeat left top fixed;
   background-size: cover;
   height: 100%;
+
 }
 
 
 body {
+  padding: 5px;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

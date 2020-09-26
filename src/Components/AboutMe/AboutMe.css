@@ -2,12 +2,25 @@
     height: 40vh;
     border-bottom: 2px solid #fff;
     display:flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    font-size:18px;
 }
 
-.aboutme-section {
-    padding:20px;
-    height:30vh;
-    width: 30%;
+ .aboutme .col {
+    margin-left: 0 !important;
 }
+
+@media only screen and (max-width: 601px) {
+    .aboutme {
+        height:50vh;
+        padding: 30px;
+        font-size:14px;
+    }
+    h4 {
+        font-size: 1.5rem !important;
+        font-weight:700 !important;
+    }
+}
+

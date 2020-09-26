@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import './Header.css';
 import { Link } from 'react-router-dom';
 import * as M from 'materialize-css';
 
 class Header extends Component {
-  
+
     componentDidMount() {
         M.AutoInit();
     }
@@ -20,6 +20,7 @@ class Header extends Component {
 
                 </div>
                 <ul className="sidenav" id="mobile-demo">
+                    <li> <Link to="/">KOTESWAR RAO MEESALA</Link></li>
                     <li><Link to="/resume">Resume</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
