@@ -18,13 +18,15 @@ class Content extends Component {
     componentDidMount () {
         Promise.all([this.FetchMediumArticles(),this.FetchDevArticles(), this.GetGithubRepos()])
         .then(res => {
-            const mediumArticles = res[0].data.items.map((item,i)=> {
-                const {link, pubDate, thumbnail, title} = item;
-                return {link, pubDate, thumbnail, title, id:i+1}
+            console.log(res[2].data)
+            const mediumArticles = res[0].data.items.filter((item,i) => item.categories.length > 0)
+            .map((item,i)=> {
+                const {link, pubDate, thumbnail, title, categories} = item;
+                return {link, pubDate, thumbnail, title, id:i+1, categories}
             });
             const devArticles = res[1].data.map((item,i)=> {
-                const {url, published_at, social_image, title, id} = item;
-                return {link:url, pubDate:published_at, thumbnail:social_image, title, id}
+                const {url, published_at, social_image, title, id, tags} = item;
+                return {link:url, pubDate:published_at, thumbnail:social_image, title, id, categories: tags.split(',')}
             });
             const githubRepos = res[2].data.map((item,i)=> {
                 const {html_url, updated_at, name, id} = item;

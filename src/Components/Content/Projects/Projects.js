@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Projects = (props) => {
-
     const Repos = props.repos.map(repo => {
         return (
             <div className="card-panel" key={repo.id}>

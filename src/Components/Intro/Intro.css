@@ -23,12 +23,14 @@
     background: #fff;
 }
 
-img {
+.profile-pic img {
     height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff9e80;
 }
 
 @media only screen and (max-width:401px) {
-    img {
+    .profile-pic img {
         height: 100px;
     }
     .profile-pic {

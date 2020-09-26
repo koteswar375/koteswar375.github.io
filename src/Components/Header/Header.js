@@ -20,9 +20,9 @@ class Header extends Component {
 
                 </div>
                 <ul className="sidenav" id="mobile-demo">
-                    <li> <Link to="/">KOTESWAR RAO MEESALA</Link></li>
-                    <li><Link to="/resume">Resume</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+                    <li className="sidenav-close"> <Link to="/">KOTESWAR RAO MEESALA</Link></li>
+                    <li className="sidenav-close"><Link to="/resume">Resume</Link></li>
+                    <li className="sidenav-close"><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
         )
