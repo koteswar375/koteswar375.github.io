@@ -4,16 +4,23 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+        "@emotion/react": "^11.5.0",
+        "@emotion/styled": "^11.3.0",
         "@material-ui/core": "^4.11.0",
+        "@mui/material": "^5.0.4",
+        "@mui/styled-engine-sc": "^5.0.3",
         "@testing-library/jest-dom": "^4.2.4",
         "@testing-library/react": "^9.5.0",
         "@testing-library/user-event": "^7.2.1",
-        "axios": "^0.20.0",
+        "axios": ">=0.21.2",
+        "material-components-web": "^13.0.0",
         "materialize-css": "^1.0.0-rc.2",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
+        "react": "latest",
+        "react-dom": "latest",
         "react-router-dom": "^5.2.0",
-        "react-scripts": "3.4.3"
+        "react-scripts": "3.4.3",
+        "save": "^2.4.0",
+        "styled-components": "^5.3.3"
     },
     "scripts": {
         "predeploy": "npm run build",
