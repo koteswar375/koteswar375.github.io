@@ -1,0 +1,150 @@
+
+{
+    "basics": {
+        "name": "Koteswar Rao Meesala",
+        "label": "Software Developer",
+        "image": "https://avatars.githubusercontent.com/u/29174490?v=4",
+        "email": "koteswar.meesala@gmail.com",
+        "url": "https://koteswar375.github.io/",
+        "summary": "I am a software developer currently pursuing my Masters in Software Engineering at UHCL. I like the way technology solves many problems and I am passionate and excited to increase my exposure to this arsenal of technologies to build solutions that addresses many challenges that are prevalent.",
+        "profiles": [
+            {
+                "network": "gitconnected",
+                "username": "koteswar375",
+                "url": "https://gitconnected.com/koteswar375"
+            },
+            {
+                "network": "GitHub",
+                "username": "koteswar375",
+                "url": "https://github.com/koteswar375"
+            }
+        ],
+        "headline": "Software Engineer | MS in Software Engineering | JavaScript, C#, NodeJS, .Net, AWS | Full stack",
+        "location": {
+            "city": "Houston",
+            "countryCode": "US"
+          },
+        "website": "https://koteswar375.github.io/"
+    },
+    "skills": [
+        {
+            "keywords": [
+              "HTML / JSX",
+              "SCSS / CSS ",
+              "Javascript / Typescript",
+              "React/Redux",
+              "Angular/RxJS"
+            ],
+            "level": "Senior",
+            "name": "Frontend"
+          },
+          {
+            "keywords": ["Node", "C#", "Python", ".Net Core"],
+            "level": "Senior",
+            "name": "Backend"
+          },
+          {
+            "keywords": ["AWS"],
+            "level": "Intermediate",
+            "name": "Devops"
+          }
+    ],
+    "work": [
+        {
+            "name": "Siemens Industry Software",
+            "location": "Pune, MH, India",
+            "position": "Software Developer",
+            "url": "https://simulite.sws.siemens.com/",
+            "startDate": "2018-10-01",
+            "endDate": "2021-01-01",
+            "summary": "Designed and developed Cloud based UI application using Angular-9, TypeScript, and other JavaScript libraries\nand CSS frameworks (Bootstrap).\nParticipated in the whole process of initial design review, planning and implementation of the product and\nhave knowledge about processes involved in Agile Software methodology such as iteration planning, review.\nDesigned and developed REST APIs in NodeJS and .NET Core for user authentication, data management,\nsending data through web sockets, and communicating with AWS cloud services such as S3, EC2, lambda\nfunction, DynamoDB.\nOther responsibilities and daily activities include collaborating with DevOps team for deployment issues on\ncloud, writing unit test cases, conferring with the product owner, and UX expert to ensure the user story meets\nfunctional, and performance requirements, performing code reviews.",
+            "highlights": ["Angular", ".Net Core", "NodeJS", "Agile"],
+            "website": "https://simulite.sws.siemens.com/"
+        },
+        {
+            "name": "Tech Mahindra Pvt Ltd",
+            "location": "Pune, MH, India",
+            "position": "Software Engineer",
+            "startDate": "2016-05-01",
+            "endDate": "2018-10-01",
+            "summary": "Worked on installation, configuration and troubleshooting of IBM WebSphere Application Server and Web\nServers IBM HTTP/Apache.\nDeveloped an interactive web application for AT&T that displays the application server configuration\ninformation and health status by running automated scripts present on the server.\nImplemented backend code in Node JS for session management, authentication and spawning a child process\nto execute the scripts.",
+            "highlights": ["Shell scripting", "Linux servers"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University Of Houston - Clearlake",
+            "area": "Software Engineering",
+            "studyType": "Masters",
+            "startDate": "2021-01-01",
+            "endDate": "2022-12-01"
+        },
+        {
+            "institution": "Jawaharlal Nehru Technological University",
+            "area": "Mechanical Engineering",
+            "studyType": "Bachelor Of Technology",
+            "startDate": "2011-08-01",
+            "endDate": "2015-04-01"
+        }
+    ],
+    "interests": [
+        {
+            "name": "sports - skipping, playing table tennis, watching  cricket, working out in gym"
+        },
+        {
+            "name": "Reading - tech related blogs, articles"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "Hindi",
+            "fluency": "Fluent"
+        },
+        {
+            "language": "Telugu",
+            "fluency": "Fluent"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Calculator app in React",
+            "publisher": "Medium",
+            "releaseDate": "2019-09-19",
+            "url": "https://medium.com/@koteswar.meesala/calculator-app-in-react-2420e68d4d3f"
+        },
+        {
+            "name": "parseInt vs toString()",
+            "publisher": "Medium",
+            "releaseDate": "2019-06-19",
+            "url": "https://medium.com/@koteswar.meesala/parseint-vs-tostring-87f5afe0ec5f"
+        },
+        {
+            "name": "RxJs combination operators",
+            "publisher": "Medium",
+            "releaseDate": "2019-10-10",
+            "url": "https://medium.com/swlh/rxjs-combination-operators-9c29270cb39b"
+            
+        }
+    ],
+    "certificates": [
+        {
+            "name": "AWS Certified Developer – Associate",
+            "issuer": "Amazon Web Services (AWS)",
+            "date": "2020-02-01",
+            "summary": "AWS Certified Developer – Associate is intended for anyone with one or more years of hands-on experience developing and maintaining an AWS-based application"
+        }
+    ],
+    "references": [
+        {
+            "name": "Zachi Mann",
+            "reference": "In the last 2 years Koteswar was a developer working on a cloud based engineering solution in my team, involving many technologies such as Angular, Node.js, .NET, 3D programming, and AWS. \nKoteswar is a quick learner, who always strives to get a complete understanding of all technologies and problems at hand. He is awesome! team-player and invaluable team member. \nI was deeply saddened when he decided to leave the team, but on the other side filled with joy as Kotesh was leaving us in order to pursue higher education in the US :) \nAnyone who will know him in the future as a team member or otherwise can consider himself lucky!"
+        }
+    ],
+    "meta": {
+        "theme": "elegant"
+    }
+}

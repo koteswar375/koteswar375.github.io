@@ -15,14 +15,14 @@ class Header extends Component {
                 <div data-target="mobile-demo" className="sidenav-trigger hide-on-large-only"><i className="material-icons">menu</i></div>
                 <div className="header grey darken-3  white-text row hide-on-med-and-down">
                     <div className="title col s12 m12 l4"> <Link to="/">KOTESWAR RAO MEESALA</Link></div>
-                    <Link to="/resume" className="col s12 m6 l1 offset-l6">Resume</Link>
-                    <Link to="/contact" className="col s12 m6 l1">Contact</Link>
+                    <Link to={{pathname: "https://registry.jsonresume.org/koteswar375"}} target="_blank" className="col s12 m6 l1 offset-l6">Resume</Link>
+                    {/* <Link to="/contact" className="col s12 m6 l1">Contact</Link> */}
 
                 </div>
                 <ul className="sidenav" id="mobile-demo">
                     <li className="sidenav-close"> <Link to="/">KOTESWAR RAO MEESALA</Link></li>
-                    <li className="sidenav-close"><Link to="/resume">Resume</Link></li>
-                    <li className="sidenav-close"><Link to="/contact">Contact</Link></li>
+                    <li className="sidenav-close"><Link to={{pathname: "https://registry.jsonresume.org/koteswar375"}} target="_blank">Resume</Link></li>
+                    {/* <li className="sidenav-close"><Link to="/contact">Contact</Link></li> */}
                 </ul>
             </div>
         )
