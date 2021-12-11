@@ -1,6 +1,6 @@
 .aboutme {
     height: 40vh;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid black;
     display:flex;
     flex-direction: column;
     justify-content: center;

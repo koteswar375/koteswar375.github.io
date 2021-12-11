@@ -9,12 +9,12 @@
     display:inline-block;
     list-style:none;
     font-weight: bold;
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid black;
     cursor:pointer;
 }
 
 .list-items li a {
-    color: #fff ;
+    color: black ;
 
 }
 
