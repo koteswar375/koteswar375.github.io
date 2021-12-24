@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'materialize-css/dist/css/materialize.min.css';
 import {BrowserRouter} from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <BrowserRouter>
   <React.StrictMode>

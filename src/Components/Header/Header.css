@@ -11,6 +11,10 @@
     color: white;
 }
 
+.header a:hover {
+    color: white;
+}
+
 .title {
     letter-spacing: 5px;
 }
