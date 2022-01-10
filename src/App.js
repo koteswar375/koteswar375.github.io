@@ -12,9 +12,9 @@ function App() {
     <div className="App">
       <Header></Header>
       <Switch>
-        <Route path="/contact">
+        {/* <Route path="/contact">
           <Contact/>
-        </Route>
+        </Route> */}
         <Route path="/">
           <Intro></Intro>
           <AboutMe></AboutMe>

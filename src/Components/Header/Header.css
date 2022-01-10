@@ -1,6 +1,7 @@
 .header {
     padding:12px;
-    box-shadow: 0 2px 50px #424242;
+    box-shadow: 0 2px 50px #474e5d;
+    border-bottom: 2px solid white;
 }
 
 .nav-wrapper {

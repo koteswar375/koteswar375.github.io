@@ -41,15 +41,15 @@ class Content extends Component {
         return (
             <div>
                 <div className="list-items">
-                    {/* <li><Link to="/">TIMELINE</Link></li> */}
+                    <li><Link className="text-decoration-none" to="/">TIMELINE</Link></li>
                     <li><Link className="text-decoration-none" to="/projects">GITHUB</Link></li>
-                    <li><Link className="text-decoration-none" to="/">ARTICLES</Link></li>
+                    <li><Link className="text-decoration-none" to="/articles">ARTICLES</Link></li>
                     {/* <li><Link to="/skills">SKILLS</Link></li> */}
                 </div>
                 <div className="list-item-content">
                     <Switch>
-                        {/* <Route exact path="/" component={TimeLine}></Route> */}
-                        <Route exact path="/" render={(props) => <Articles {...props} articles={this.state.articles} />}></Route>
+                        <Route exact path="/" component={TimeLine}></Route>
+                        <Route exact path="/articles" render={(props) => <Articles {...props} articles={this.state.articles} />}></Route>
                         <Route exact path="/projects" render={(props) => <Projects {...props} repos={this.state.repos} />}></Route>
                         {/* <Route exact path="/skills" component={Skills}></Route> */}
                     </Switch>

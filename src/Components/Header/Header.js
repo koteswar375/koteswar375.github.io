@@ -13,9 +13,9 @@ class Header extends Component {
         return (
             <div className="nav-wrapper">
                 <div data-target="mobile-demo" className="sidenav-trigger hide-on-large-only"><i className="material-icons">menu</i></div>
-                <div className="header grey darken-3 white-text d-flex justify-content-between hide-on-med-and-down">
+                <div className="header white-text d-flex justify-content-between hide-on-med-and-down">
                     <div className="title"> <Link className="text-decoration-none" to="/">KOTESWAR RAO MEESALA</Link></div>
-                    <Link to={{pathname: "https://registry.jsonresume.org/koteswar375"}} target="_blank" className="px-5 text-decoration-none">Resume</Link>
+                    <Link to={{pathname: "https://registry.jsonresume.org/koteswar375"}} target="_blank" className="px-5 text-decoration-none fs-5">Resume</Link>
                     {/* <Link to="/contact" className="col s12 m6 l1">Contact</Link> */}
 
                 </div>
