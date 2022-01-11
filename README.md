@@ -1,6 +1,5 @@
 # My Portfolio
 
-Access at https://koteswar375.github.io/
 
 ![Logo](https://raw.githubusercontent.com/koteswar375/koteswar375.github.io/master/src/assets/logo.jpg)
 
